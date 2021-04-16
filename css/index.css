@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    max-width: 1400px;
+    height: 140px;
+    border-bottom: 2px solid black;
+    padding: 2% 2%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header nav{
+   position: relative;
+   top: 40px;
+   font-size: 30px;
+   font-weight: bold;
+   font-style: italic;
+}
+
+header nav ul{
+    display: flex;
+    
+}
+
+header nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.familia_botijao{
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(to bottom, midnightblue, dimgray);
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2%;
+}
+
+.beneficios{
+    padding: 70px;
+    color: white;
+}
+
+.barra-beneficios{
+    font-size: 25px;
+    width: 315px;
+    line-height: 70px;
+    font-style: italic;
+    margin-top: 30px;
+    height: 70px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    background:black;
+    border-radius: 5px;
+    cursor:default;
+    
+    
+}
+
+.barra-beneficios:hover{
+   text-align: center;
+   transition: 2s;
+    width: 400px;
+    line-height: 70px;
+}
+
+.linha_escrita{
+    width: 100%;
+    max-width: 1400px;
+    height: 100px;
+    margin: auto;
+    
+    text-align: center;
+}
+
+.linha{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.escrita{
+    font-size: 25px;
+    width: 200px;
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    top: -18px;
+    position: relative;
+    font-weight: bold;
+}
+
+.ofertas{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.cartao{
+    width: 33.3%;
+    height: 350px;
+    
+    
+}
+
+.cartao img{
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.preco{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.cartao input[type=button]{
+    text-align: center;
+    margin-top: 25px;
+    background-color: darksalmon;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 8px;
+    border-bottom: 5px solid blue;
+}
+
+.dupla-section{
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.section1{
+    width: 50%;
+    background-color: darkslategray;
+    color: white;
+    padding: 4% 10%;
+
+}
+
+.section1 h2{
+    font-size: 45px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.section1 ul li{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.section2{
+    width: 50%;
+    background-color: orangered;
+    color: white;
+    padding: 4% 10%;
+}
+
+.section2 h2{
+    font-size: 45px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.section2 ul li{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+ .contato{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 50%;
+    height: 350px;
+    background: linear-gradient(to bottom, darkslategray, orangered);
+    opacity: 0.3;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2% 2%;
+
+}
+
+input[type=text]{
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 2% 2%;
+    margin-bottom: 5px;
+}
+
+input[type=email]{
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 2% 2%;
+    margin-bottom: 5px;
+    
+}
+
+input[type=tel]{
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 2% 2%;
+    margin-bottom: 5px;
+}
+
+textarea{
+    width: 80%;
+    height: 50%;
+    border-radius: 5px;
+    padding: 2% 2%;
+    margin-bottom: 20px;
+}
+
+input[type=submit]{
+    width: 20%;
+    height: 40px;
+    background: linear-gradient(to right, orange, gold);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    border-top: 3px solid black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2{
+    font-size: 25px;
+    font-style: italic;
+}
+
+footer p{
+    font-size: 20px;
+    font-style: italic;
+}
+
